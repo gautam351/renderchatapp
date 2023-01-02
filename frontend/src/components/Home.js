@@ -25,7 +25,7 @@ const Home = () => {
 
   useEffect(() => {
     const autoLogin = async () => {
-      const { data } = await axios.get("https://mernchatapppg.herokuapp.com/api/v1/me", {
+      const { data } = await axios.get("api/v1/me", {
         headers: { "Content-Type": "application/json" },
       });
       if (data.success) navigate("/chat");
