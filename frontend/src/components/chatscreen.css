@@ -1,0 +1,144 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}
+
+.header {
+  /* background-color: bisque; */
+  /* margin-top: 10px; */
+  display: flex;
+  border-bottom: 2px solid #e7e7e7;
+}
+.headleft {
+  height: 10vh;
+  flex: 0.17;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid whitesmoke;
+  background-color: white;
+  padding-right: 10px;
+}
+
+.avatar {
+  align-self: center;
+  margin: 6px;
+  /* flex: 0.; */
+}
+.icon {
+  /* background-color: black; */
+  align-self: center;
+  margin: 10px;
+  /* flex: 0.3; */
+
+  font-size: 30px !important;
+}
+.icon:hover {
+  font-size: 37px !important;
+}
+.moreoption {
+  align-self: center;
+}
+
+.headright {
+  display: flex;
+  flex: 0.84;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.headrightleft {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.headrightright {
+  display: flex;
+  flex: 0.4;
+  /* background-color: aqua; */
+  justify-content: space-around;
+}
+.leftname {
+  margin: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+
+  /* background-color: aqua; */
+}
+.left {
+  flex: 0.17;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid whitesmoke;
+  background-color: white;
+  padding-right: 10px;
+  flex-direction: column;
+}
+
+.right {
+  flex: 0.84;
+}
+.addchat {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 8vh;
+
+  display: flex;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.chatList {
+  /* background-color: aqua; */
+  padding-top: 10px;
+  margin-top: 10px;
+  flex: 1;
+  display: block;
+  overflow: scroll;
+
+  /* font-size: large; */
+}
+.chatList::-webkit-scrollbar {
+  display: none;
+}
+.chatname {
+  display: flex;
+  /* background-color: aliceblue; */
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.chatname:hover {
+  cursor: pointer;
+}
+.addbtn:hover {
+  font-size: 50px !important;
+}
+.addbtn {
+  /* background-color: red !important; */
+  font-size: 40px !important;
+  color: black !important;
+}
+.addchat > Button {
+  flex: 1;
+  background-color: transparent !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    display: none !important;
+  }
+  .visible {
+    display: block !important;
+  }
+  .leftname {
+    display: none;
+  }
+}
