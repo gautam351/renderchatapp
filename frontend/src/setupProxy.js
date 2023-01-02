@@ -5,7 +5,7 @@ module.exports = function(app) {
 		'/api',
 		createProxyMiddleware({
 			// target: "https://mernchatapppg.herokuapp.com/",
-			target: 'http://localhost:8001/',
+			target: 'https://chatappbackend1.onrender.com/',
 
 			changeOrigin: true
 		})

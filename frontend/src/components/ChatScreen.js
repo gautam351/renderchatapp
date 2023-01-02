@@ -32,7 +32,7 @@ import MicNoneOutlinedIcon from "@mui/icons-material/MicNoneOutlined";
 import "./utilComponents/ChatBody.css";
 // import { TextField } from "@mui/material";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
-const EndPoint = "https://chatapprontend.onrender.com/";
+const EndPoint = "https://chatappbackend1.onrender.com/";
 // const EndPoint = "http://localhost:8001/";
 
 var socketi, selectedchatcompare;
